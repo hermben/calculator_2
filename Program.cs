@@ -16,6 +16,14 @@ namespace calculator_2
             Console.WriteLine("please enter your second number: ");
             num02 = Convert.ToInt32(Console.ReadLine());
 
+            Console.WriteLine("Select an option from the following list:");
+            Console.WriteLine("\t+ - Add");
+            Console.WriteLine("\t- - Subtract");
+            Console.WriteLine("\t/ - Multiply");
+            Console.WriteLine("\t* - Divide");
+            Console.Write("Your selection ");
+
+
         }
     }
 }
