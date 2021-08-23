@@ -23,6 +23,23 @@ namespace calculator_2
             Console.WriteLine("\t* - Divide");
             Console.Write("Your selection ");
 
+            switch (Console.ReadLine())
+            {
+                case "+":
+                    Console.WriteLine($"your result is :{num01} + {num02}= " + (num01 + num02));
+                    break;
+                case "-":
+                    Console.WriteLine($"your result is :{num01} - {num02}= " + (num01 - num02));
+                    break;
+                case "/":
+                    Console.WriteLine($"your result is :{num01} / {num02}= " + (num01 / num02));
+                    break;
+
+                case "*":
+                    Console.WriteLine($"your result is :{num01} * {num02}= " + (num01 * num02));
+                    break;
+            }
+
 
         }
     }
