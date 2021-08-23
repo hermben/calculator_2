@@ -45,7 +45,8 @@ namespace calculator_2
                     Console.WriteLine($"your result is :{num01} * {num02}= " + (num01 * num02));
                     break;
             }
-
+            Console.Write("press the return key to close the Program.");
+            Console.ReadKey();
 
         }
     }
