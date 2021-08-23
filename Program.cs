@@ -6,7 +6,8 @@ namespace calculator_2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int num01;
+            int num02;
         }
     }
 }
