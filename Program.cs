@@ -6,15 +6,15 @@ namespace calculator_2
     {
         static void Main(string[] args)
         {
-            int num01;
-            int num02;
+            double num01;
+            double num02;
 
             Console.WriteLine("Please enter your first number : ");
-            num01 = Convert.ToInt32(Console.ReadLine());
+            num01 = Convert.ToDouble(Console.ReadLine());
 
 
             Console.WriteLine("please enter your second number: ");
-            num02 = Convert.ToInt32(Console.ReadLine());
+            num02 = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("Select an option from the following list:");
             Console.WriteLine("   \t+ to Add \t- to Subtract \t/ to Multiply \t * to Divide");
