@@ -10,6 +10,8 @@
 *.userosscache
 *.sln.docstates
 
+
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
@@ -34,6 +36,9 @@ bld/
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
+#visual Studio 2019 specific files
+.vs/calculator_2/DesignTimeBuild/.dtbcache.v2
+.vs/calculator_2/v16/.suo
 # Uncomment if you have tasks that create the project's static files in wwwroot
 #wwwroot/
 
