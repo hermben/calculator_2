@@ -17,10 +17,7 @@ namespace calculator_2
             num02 = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Select an option from the following list:");
-            Console.WriteLine("\t+ - Add");
-            Console.WriteLine("\t- - Subtract");
-            Console.WriteLine("\t/ - Multiply");
-            Console.WriteLine("\t* - Divide");
+            Console.WriteLine("   \t+ to Add \t- to Subtract \t/ to Multiply \t * to Divide");
             Console.Write("Your selection ");
 
             switch (Console.ReadLine())
