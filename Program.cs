@@ -32,7 +32,7 @@ namespace calculator_2
                 case "/":
                     while (num02 == 0)
                     {
-                        Console.WriteLine("please Enter a second number greater than 0 ");
+                        Console.WriteLine("please Enter a second number greater than 0 :");
                         num02 = Convert.ToInt32(Console.ReadLine());
                     }
                     Console.WriteLine($"your result is :{num01} / {num02}= " + (num01 / num02));
